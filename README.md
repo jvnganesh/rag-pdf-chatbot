@@ -4,8 +4,9 @@ A powerful **Retrieval-Augmented Generation (RAG)** chatbot that allows users to
 
 This project leverages **OpenAI Embeddings**, **FAISS** for high-speed vector search, and **Streamlit** for a seamless user interface. It includes professional-grade features like inline citations and a developer debug panel.
 
+When i uploaded a pdf file regarding procurement and asked about burj khalifa it isnt able to tell as I am limiting its knowledge to my pdf.
 <img width="975" height="403" alt="image" src="https://github.com/user-attachments/assets/4527363e-fe25-4e40-b338-6192a6193f00" />
-
+Simillarly another example when I uploaded A famous book rich dad poor dad by robert kioski, it is able to summarize the chapters.
 <img width="975" height="519" alt="image" src="https://github.com/user-attachments/assets/5bbc3db7-7532-4c85-a4be-ae36b3509ecf" />
 
 ---
