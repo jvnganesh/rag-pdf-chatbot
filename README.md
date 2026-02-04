@@ -55,3 +55,51 @@ rag-pdf-chatbot/
 │── .gitignore          # Git exclusion rules
 └── data/
     └── pdfs/           # Local storage for uploaded files
+```
+
+▶️ Getting Started
+1. Clone the Repository
+Bash
+git clone [https://github.com/jvnganesh/rag-pdf-chatbot.git](https://github.com/jvnganesh/rag-pdf-chatbot.git)
+cd rag-pdf-chatbot
+2. Install Dependencies
+Bash
+pip install -r requirements.txt
+3. Configure Environment Variables
+Set your OpenAI API Key in your terminal environment:
+
+macOS / Linux:
+
+Bash
+export OPENAI_API_KEY="your_api_key_here"
+Windows (PowerShell):
+
+PowerShell
+$env:OPENAI_API_KEY="your_api_key_here"
+4. Run the App
+Bash
+streamlit run app.py
+🧪 Debugging & Optimization
+The built-in Debug Panel allows you to peek under the hood:
+
+Similarity Distances: See how closely the retrieved text matches the query.
+
+Context Inspection: View exactly what information was passed to the LLM.
+
+Refinement: Use these insights to adjust chunk sizes or retrieval top-k settings.
+
+⚠️ Limitations & Future Roadmap
+Current Limit: Does not support scanned/image-based PDFs (requires OCR).
+
+Roadmap: * [ ] Add Reranking (e.g., Cohere) for better precision.
+
+[ ] Integration with Persistent Vector DBs (Pinecone/Chroma).
+
+[ ] Support for OCR via Tesseract or Azure Form Recognizer.
+
+[ ] Evaluation framework using RAGAS.
+
+👤 Author
+JVN Ganesh
+
+GitHub: @jvnganesh
